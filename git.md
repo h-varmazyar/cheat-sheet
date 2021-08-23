@@ -3,13 +3,13 @@ This cheat sheet contains some of important Git commands.
 
 ## Table of Contents
 - [Setup Git](#setup-git)
-- [Setup & Init Repo](#setup-init-repo)
-- [Stage & snapshot](#stage-snapshot)
-- [Branch & merge](#branch-merge)
-- [Inspect & compare](#inspect-compare)
+- [Setup & Init Repo](#setup-&-init-repo)
+- [Stage & snapshot](#stage-&-snapshot)
+- [Branch & merge](#branch-&-merge)
+- [Inspect & compare](#inspect-&-compare)
 - [Tracking path changes](#tracking-path-changes)
 - [Ignoring patterns](#ignoring-patterns)
-- [Share & update](#share-update)
+- [Share & update](#share-&-update)
 - [Rewrite history](#rewrite-history)
 - [Temporary commits](#temporary-commits)
 ### Setup git
@@ -233,4 +233,4 @@ git stash drop
 updating...
 
 ## Resources
-(#https://education.github.com/git-cheat-sheet-education.pdf)
+git education: (https://education.github.com/git-cheat-sheet-education.pdf)
