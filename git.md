@@ -3,13 +3,13 @@ This cheat sheet contains some of important Git commands.
 
 ## Table of Contents
 - [Setup Git](#setup-git)
-- [Setup & Init Repo](#setup-&-init-repo)
-- [Stage & snapshot](#stage-&-snapshot)
-- [Branch & merge](#branch-&-merge)
-- [Inspect & compare](#inspect-&-compare)
+- [Setup and Init Repo](#setup-and-init-repo)
+- [Stage and snapshot](#stage-and-snapshot)
+- [Branch and merge](#branch-and-merge)
+- [Inspect and compare](#inspect-and-compare)
 - [Tracking path changes](#tracking-path-changes)
 - [Ignoring patterns](#ignoring-patterns)
-- [Share & update](#share-&-update)
+- [Share and update](#share-and-update)
 - [Rewrite history](#rewrite-history)
 - [Temporary commits](#temporary-commits)
 ### Setup git
@@ -30,7 +30,7 @@ set automatic command line coloring for Git for easy reviewing
 git config --global color.ui auto
 ```
 
-### Setup & init Repo
+### Setup and init Repo
 Configuring user information, initializing and cloning repositories
 
 initialize an existing directory as a Git repository
@@ -43,7 +43,7 @@ retrieve an entire repository from a hosted location via URL
 git clone [url]
 ```
 
-### Stage & snapshot
+### Stage and snapshot
 Working with snapshots and the Git staging area
 
 show modified files in working directory, staged for your next commit
@@ -76,7 +76,7 @@ commit your staged content as a new commit snapshot
 git commit -m “[descriptive message]”
 ```
 
-### Branch & merge
+### Branch and merge
 Isolating work in branches, changing context, and integrating changes
 
 list your branches. a * will appear next to the currently active branch
@@ -104,7 +104,7 @@ show all commits in the current branch’s history
 git log
 ```
 
-### Inspect & compare
+### Inspect and compare
 Examining logs, diffs and object information
 
 show the commit history for the currently active branch
@@ -166,7 +166,7 @@ system wide ignore patern for all local repositories
 git config --global core.excludesfile [file]
 ```
 
-###   Share & update
+###   Share and update
 Retrieving updates from another repository and updating local repos
 
 add a git URL as an alias
